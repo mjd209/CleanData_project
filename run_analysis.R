@@ -44,4 +44,4 @@ names(data.clean)[2]=paste("Activity")
 #Now step 4
 require(plyr)
 Average_data=ddply(data.clean, c('Subject','Activity'), colwise(mean))
-
+write.table(Average_data, "tidy_data.txt", row.name=FALSE)
