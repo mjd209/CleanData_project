@@ -2,7 +2,7 @@
 
 This repository contains my run_analysis.R file necessary to obtain the tidy dataset required for the projec of the Getting and Cleaning Data course.
 
-$ How it works
+## How it works
 Download the files from the following website:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
